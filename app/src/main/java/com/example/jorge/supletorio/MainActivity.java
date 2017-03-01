@@ -132,6 +132,8 @@ public class MainActivity extends Activity {
             mapa.get(cartaDesde).setHabilitada(false);
             mapa.get(cartaHasta).setHabilitada(false);
         }else{
+
+            Toast.makeText(getApplicationContext(), getApplicationContext().getString(R.string.incorrecto), Toast.LENGTH_LONG).show();
             cartaDelay.setOcultar(false);
             mHandler.postDelayed(cartaDelay, 500);
             //restaurarColorCartas(cartaDesde, cartaHasta);
