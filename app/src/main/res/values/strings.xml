@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Supletorio</string>
+    <string name="nuevo">Nuevo juego</string>
+    <string name="correcto">Correcto +10 puntos</string>
+    <string name="incorrecto">Incorrecto</string>
+    <string name="gano">GANO!!!</string>
+</resources>
